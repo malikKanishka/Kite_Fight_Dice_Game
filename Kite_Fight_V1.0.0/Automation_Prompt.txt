@@ -1,0 +1,6 @@
+Prompt->
+
+Hey Amazon Q, I'd like you to simulate running my Kite Fight Java game. Please act as both the program and the user, providing all the necessary inputs when prompted. Walk through the entire game flow, making decisions for 3 players with different names, and show me the complete console output as if the game were running. Make the simulation interesting with varying dice rolls and outcomes. When you're done, summarise what happened in the game.
+
+
+

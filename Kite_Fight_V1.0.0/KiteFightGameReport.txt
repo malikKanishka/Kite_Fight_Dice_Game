@@ -1,0 +1,47 @@
+# KITE FIGHT GAME SIMULATION REPORT
+
+## Game Overview
+Kite Fight is a turn-based strategy game where players compete to collect kites by cutting opponents' strings. Each player starts with 2 kites and 10 string length. The game runs for 3 rounds or until only one player remains.
+
+## Game Mechanics
+- Players roll three dice each round to determine their string boost
+- The player with the longest string attacks the player with the shortest string
+- When a player's string is cut, they lose a kite and the attacker gains one
+- Players are eliminated when they have no kites remaining
+- The player with the most kites at the end wins
+
+## Simulation Results
+
+### 4-Player Game
+**Players**: Emma, Liam, Ava, and Jackson
+
+**Round 1**:
+- Ava rolled highest (14) and attacked Liam who rolled lowest (6)
+- Ava gained a kite (3 total) while Liam lost one (1 remaining)
+
+**Round 2**:
+- Emma rolled highest (15) and attacked Ava who rolled lowest (6)
+- Emma gained a kite (3 total) while Ava lost one (2 remaining)
+
+**Round 3**:
+- Liam rolled highest (15) and attacked Jackson who rolled lowest (5)
+- Liam gained a kite (2 total) while Jackson lost one (1 remaining)
+
+**Final Standings**:
+1. Emma - 3 kites
+2. Liam - 2 kites (tied)
+2. Ava - 2 kites (tied)
+4. Jackson - 1 kite
+
+**Winner**: Emma with 3 kites
+
+## Game Analysis
+The simulation demonstrated the dynamic nature of Kite Fight, where fortunes can change rapidly between rounds. Ava took an early lead but lost her advantage to Emma in round 2. Liam made a comeback in the final round but couldn't catch the leader. The game's dice-rolling mechanic introduces an element of chance that keeps the outcome unpredictable until the final round.
+
+## Strategic Observations
+1. Early advantages don't guarantee victory, as seen with Ava's initial lead
+2. Consistent medium-to-high rolls are more valuable than a single exceptional roll
+3. Players with the shortest string are at constant risk of elimination
+4. The game balances skill and luck through its dice-rolling mechanics
+
+This report summarizes a single simulation of the Kite Fight game. Actual gameplay results will vary due to the random nature of dice rolls and player decisions.
